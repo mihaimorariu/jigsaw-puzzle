@@ -8,9 +8,9 @@ The user can shuffle the pieces at any time, by clicking on `Shuffle` or can che
 Make sure you have Qt installed. Then, from the main directory, run:
 ```
 mkdir build && cd build
-qmake .. && make
+qmake ../src && make
 ```
 
 ### How to Run ###
 
-Go to the `build` directory and run `./JigsawPuzzle`. Have fun playing!
+Go to the `build` directory and run `./jigsawpuzzle`. Have fun playing!
