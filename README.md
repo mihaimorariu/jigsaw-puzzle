@@ -1,10 +1,16 @@
 # Jigsaw Puzzle #
 
-This repository contains my implementation for the jigsaw puzzle. Given an image as input, an `NxN` puzzle is generated from it, with `N` between 3 and 6, inclusively. The user can shuffle the pieces at any time, by clicking on `Shuffle` or can check the correct solution by clicking on `Solve`.
+This repository contains my implementation for the jigsaw puzzle. Given an image as input, an `NxN` puzzle is generated from it, with `N` between 3 and 6, inclusively.
+The user can shuffle the pieces at any time, by clicking on `Shuffle` or can check the correct solution by clicking on `Solve`.
 
-### How to play ###
+## Build ##
 
-* Open JigsawPuzzle.pro in QtCreator.
-* Compile.
-* Run.
-* Have fun playing!
+Make sure you have Qt installed. Then, from the main directory, run:
+```
+mkdir build && cd build
+qmake .. && make
+```
+
+### Run ###
+
+Run `./JigsawPuzzle` from the `build` directory and have fun playing!
