@@ -14,7 +14,6 @@ qmake ../src && make
 ## Running ##
 
 Go to the `build` directory and run `./jigsawpuzzle`. Have fun playing!
-`
 
 ## Screenshots ##
 
